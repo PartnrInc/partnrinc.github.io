@@ -104,6 +104,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     font-weight: 400;
     opacity: 0.8;
     padding: 8px 16px;
+    margin-top: 10px;
+    text-align: center;
 }
 .btn-round{
     border-width: 1px;
@@ -310,8 +312,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     color: #444444;
     height: 40px;
     padding: 6px 16px;
-  float:left;
-  margin-right: 5px;
+    font-size: 18px;
+    float:left;
+    margin-right: 5px;
 }
 
 .form-control:focus {
@@ -684,7 +687,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: rgba(0,0,0,.6);
 }
 .cover.blue{
-    background-color: rgba(5, 31, 60, 0.6);
+    background-color: rgba(5, 31, 60, 0.65);
 }
 .cover.green{
     background-color: rgba(3, 28, 7, 0.6);
@@ -747,16 +750,17 @@ img {
     z-index: 4;
 }
 .main .motto, .main .subscribe .info-text{
-    font-size: 40px;
+    margin-bottom: 20px;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
-    margin-top: 30px;
-    
 }
 .main .subscribe .info-text{
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 30px;
+}
+.form-group {
+    text-align: left;
 }
 #video_background {
     position: fixed;
@@ -816,7 +820,8 @@ img {
 }
 @media (min-width:991px){        
     .main .subscribe .form-group{
-        width: 190px;
+        margin-left: -30px;
+        width: 250px;
     }   
     .footer{
         position: fixed;
@@ -825,7 +830,8 @@ img {
 }
 @media (min-width:1200px){        
     .main .subscribe .form-group{
-        width: 250px;
+        margin-left: -30px;
+        width: 300px;
     }   
 }
 
