@@ -97,13 +97,16 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     transition: all 300ms linear;
 }
 
-
+#mc-embedded-subscribe {
+  margin-left: 40px;
+}
 .btn{
     border-width: 2px;
     background-color: rgba(0,0,0,.0);
     font-weight: 400;
     opacity: 0.8;
-    padding: 8px 16px;
+    font-size: 16px;
+    padding: 10px 64px;
     margin-top: 10px;
     text-align: center;
 }
@@ -750,7 +753,7 @@ img {
     z-index: 4;
 }
 .main .motto, .main .subscribe .info-text{
-    margin-bottom: 20px;
+    margin: 0px 0px 20px;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
@@ -761,6 +764,7 @@ img {
 }
 .form-group {
     text-align: left;
+    display: inline-block;
 }
 #video_background {
     position: fixed;
@@ -807,22 +811,30 @@ img {
 
 @media (min-width:219px){        
     .main .subscribe .form-group{
-        width: auto;
+      width: auto;
     }   
     .main .subscribe .form-inline .btn{
         width: 100%;
-    }   
+    } 
+    #mc-embedded-subscribe {
+      margin-left: 0px;
+    }
 }
 @media (min-width:768px){        
     .main .subscribe .form-inline .btn{
-        width: auto;
-    }   
+      width: auto;
+    } 
+    #mc-embedded-subscribe {
+      margin-left: 0px;
+    }
 }
 @media (min-width:991px){        
     .main .subscribe .form-group{
-        margin-left: -30px;
-        width: 250px;
+      width: 250px;
     }   
+    #mc-embedded-subscribe {
+      margin-left: 20px;
+    }
     .footer{
         position: fixed;
         bottom: 20px;
@@ -830,9 +842,11 @@ img {
 }
 @media (min-width:1200px){        
     .main .subscribe .form-group{
-        margin-left: -30px;
         width: 300px;
-    }   
+    }
+    #mc-embedded-subscribe {
+      margin-left: 40px;
+    }
 }
 
 
