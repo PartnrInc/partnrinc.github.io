@@ -823,7 +823,8 @@ img {
     display: block;
   }   
   .main .subscribe .form-inline .btn{
-      width: 100% !important;
+    width: 100% !important;
+    display: inline;
   } 
   #mc-embedded-subscribe {
     margin-left: 0px !important;
@@ -836,6 +837,7 @@ img {
   }       
   .main .subscribe .form-inline .btn{
     width: auto;
+    display: inline;
   } 
   #mc-embedded-subscribe {
     margin-left: 0px !important;
