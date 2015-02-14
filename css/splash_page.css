@@ -824,10 +824,10 @@ img {
   }   
   .main .subscribe .form-inline .btn{
     width: 100% !important;
-    display: inline;
   } 
   #mc-embedded-subscribe {
     margin-left: 0px !important;
+    display: inline !important;
   }
 }
 @media (min-width:768px){
@@ -837,10 +837,10 @@ img {
   }       
   .main .subscribe .form-inline .btn{
     width: auto;
-    display: inline;
   } 
   #mc-embedded-subscribe {
     margin-left: 0px !important;
+    display: inline !important;
   }
 }
 @media (min-width:991px){        
