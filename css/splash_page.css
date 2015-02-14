@@ -99,6 +99,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 #mc-embedded-subscribe {
   margin-left: 40px;
+  text-align: center;
+  width: 300px;
 }
 .btn{
     border-width: 2px;
