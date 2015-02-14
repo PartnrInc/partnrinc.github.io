@@ -105,7 +105,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   text-align: center;
   display: inline !important;
 }
-#mc-email {
+#mce-email {
   width: 300px !important;
 }
 .btn{
