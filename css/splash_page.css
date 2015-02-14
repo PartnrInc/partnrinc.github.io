@@ -106,7 +106,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   display: inline !important;
 }
 #mce-EMAIL {
-  width: 300px !important;
+  width: 100% !important;
 }
 .btn{
     border-width: 2px;
@@ -821,36 +821,27 @@ img {
     .main .subscribe .form-group{
       width: auto;
     }   
-    #mce-EMAIL {
-      width: auto;
-    }
     .main .subscribe .form-inline .btn{
-        width: 100%;
+        width: 100% !important;
     } 
     #mc-embedded-subscribe {
-      margin-left: 0px;
+      margin-left: 0px !important;
     }
 }
 @media (min-width:768px){        
     .main .subscribe .form-inline .btn{
       width: auto;
     } 
-    #mce-EMAIL {
-      width: auto;
-    }
     #mc-embedded-subscribe {
-      margin-left: 0px;
+      margin-left: 0px !important;
     }
 }
 @media (min-width:991px){        
     .main .subscribe .form-group{
       width: 250px;
     }
-    #mce-EMAIL {
-      width: 250px;
-    }
     #mc-embedded-subscribe {
-      margin-left: 20px;
+      margin-left: 20px !important;
     }
     .footer{
         position: fixed;
