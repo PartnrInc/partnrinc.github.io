@@ -844,7 +844,7 @@ img {
 @media (min-width:991px){        
   .main .subscribe .form-group{
     width: 250px;
-    display: inline;
+    display: inline-block;
   }
   #mc-embedded-subscribe {
     margin-left: 20px !important;
@@ -857,7 +857,7 @@ img {
 @media (min-width:1200px){        
   .main .subscribe .form-group{
       width: 300px;
-      display: inline;
+      display: inline-block;
   }
   #mc-embedded-subscribe {
     margin-left: 40px;
