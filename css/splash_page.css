@@ -818,44 +818,48 @@ img {
 }
 
 @media (min-width:219px){        
-    .main .subscribe .form-group{
-      width: auto;
-      display: block;
-    }   
-    .main .subscribe .form-inline .btn{
-        width: 100% !important;
-    } 
-    #mc-embedded-subscribe {
-      margin-left: 0px !important;
-    }
+  .main .subscribe .form-group{
+    width: auto;
+    display: block;
+  }   
+  .main .subscribe .form-inline .btn{
+      width: 100% !important;
+  } 
+  #mc-embedded-subscribe {
+    margin-left: 0px !important;
+  }
 }
-@media (min-width:768px){        
-    .main .subscribe .form-inline .btn{
-      width: auto;
-    } 
-    #mc-embedded-subscribe {
-      margin-left: 0px !important;
-    }
+@media (min-width:768px){
+  .main .subscribe .form-group{
+    width: auto;
+    display: block;
+  }       
+  .main .subscribe .form-inline .btn{
+    width: auto;
+  } 
+  #mc-embedded-subscribe {
+    margin-left: 0px !important;
+  }
 }
 @media (min-width:991px){        
-    .main .subscribe .form-group{
-      width: 250px;
-    }
-    #mc-embedded-subscribe {
-      margin-left: 20px !important;
-    }
-    .footer{
-        position: fixed;
-        bottom: 20px;
-    }
+  .main .subscribe .form-group{
+    width: 250px;
+  }
+  #mc-embedded-subscribe {
+    margin-left: 20px !important;
+  }
+  .footer{
+      position: fixed;
+      bottom: 20px;
+  }
 }
 @media (min-width:1200px){        
-    .main .subscribe .form-group{
-        width: 300px;
-    }
-    #mc-embedded-subscribe {
-      margin-left: 40px;
-    }
+  .main .subscribe .form-group{
+      width: 300px;
+  }
+  #mc-embedded-subscribe {
+    margin-left: 40px;
+  }
 }
 
 
