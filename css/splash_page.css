@@ -103,7 +103,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .subscribe #mc_embed_signup form {
   text-align: center;
-  width: 300px;
+  width: 300px !important;
   display: inline !important;
 }
 .btn{
