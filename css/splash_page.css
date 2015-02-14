@@ -821,6 +821,9 @@ img {
     .main .subscribe .form-group{
       width: auto;
     }   
+    #mce-EMAIL {
+      width: auto;
+    }
     .main .subscribe .form-inline .btn{
         width: 100%;
     } 
@@ -832,6 +835,9 @@ img {
     .main .subscribe .form-inline .btn{
       width: auto;
     } 
+    #mce-EMAIL {
+      width: auto;
+    }
     #mc-embedded-subscribe {
       margin-left: 0px;
     }
@@ -839,7 +845,10 @@ img {
 @media (min-width:991px){        
     .main .subscribe .form-group{
       width: 250px;
-    }   
+    }
+    #mce-EMAIL {
+      width: 250px;
+    }
     #mc-embedded-subscribe {
       margin-left: 20px;
     }
