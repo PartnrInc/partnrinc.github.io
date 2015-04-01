@@ -8,19 +8,19 @@ body{
     
 }
 .form-control::-moz-placeholder{
-   color: #DDDDDD;
+   color: #000;
    opacity: 1;
 }
 .form-control:-moz-placeholder{
-   color: #DDDDDD;
+   color: #000;
    opacity: 1;  
 }  
 .form-control::-webkit-input-placeholder{
-   color: #DDDDDD;
+   color: #000;
    opacity: 1; 
 } 
 .form-control:-ms-input-placeholder{
-   color: #DDDDDD;
+   color: #000;
    opacity: 1; 
 }
 /*     General overwrite     */
@@ -73,7 +73,9 @@ h5, .h5 {
 h6, .h6{
     font-size: 14px;
     font-weight: bold;
-    text-transform: uppercase;
+    color: #57CECB;
+    text-align: center;
+    margin-bottom: 20px;
 }
 p{
     font-size: 16px;
@@ -110,6 +112,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .btn{
     border-width: 2px;
+    border-radius: 0;
     background-color: rgba(0,0,0,.0);
     font-weight: 400;
     opacity: 0.8;
@@ -125,7 +128,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     padding: 9px 18px;
 }
 .btn-sm, .btn-xs {
-    border-radius: 3px;
     font-size: 12px;
     line-height: 1.5;
     padding: 5px 10px;
@@ -134,7 +136,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     padding: 1px 5px;
 }
 .btn-lg{
-   border-radius: 6px;
    font-size: 18px;
    font-weight: 400;
    padding: 14px 60px;
@@ -318,12 +319,12 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .form-control {
     background-color: #FFFFFF;
     border: 1px solid #E3E3E3;
-    border-radius: 4px;
+    border-radius: 0px;
     box-shadow: none;
     color: #444444;
     height: 40px;
     padding: 6px 16px;
-    font-size: 18px;
+    font-size: 14px;
     float:left;
     margin-right: 5px;
 }
@@ -335,7 +336,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     outline: 0 none;
 }
 .form-control + .form-control-feedback{
-    border-radius: 6px;
     font-size: 20px;
     padding: 0 12px 0 0;
     position: absolute;
@@ -364,6 +364,12 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     -webkit-transition: all 0.4s;
     font-size: 16px;
 }
+.navbar-header .navbar-title {
+  color: white;
+  margin-right: 0px;
+  margin-top: 14px;
+  padding-right: 0px;
+}
 .navbar-default {
     background-color: #D9D9D9;
     
@@ -375,8 +381,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     font-size: 20px;
 }
 .navbar-nav {
-    float: none;
-    margin-left: 450px;
+    float: right;
+    margin-right: 25px;
 }
 .navbar-nav > li > a {
     margin-top: 13px;
@@ -672,7 +678,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     opacity: 0.25;
 }
 
-
+.container {
+  width: 100%;
+}
 .main{
     background-position: center center;
     background-size: cover;
@@ -695,7 +703,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 .cover.black{
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.75);
 }
 .cover.blue{
     background-color: rgba(5, 31, 60, 0.65);
@@ -748,8 +756,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 img {
     margin-top: 60px;
-    height: 290px;
-    width: 250px;
+    width: 225px;
 }
 .main .logo.cursive{
     font-family: 'Grand Hotel',cursive;
@@ -761,7 +768,7 @@ img {
     z-index: 4;
 }
 .main .motto, .main .subscribe .info-text{
-    margin: 0px 0px 20px;
+    margin: 10px 0px 20px;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
