@@ -647,7 +647,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 @media (max-width: 768px){ 
     .navbar-transparent{
         padding-top: 0px;
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: rgba(0, 0, 0, 0.9);
     }
     .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-transparent .dropdown-menu > li > a:hover, .navbar-transparent .dropdown-menu > li > a:focus, [class*="navbar-ct"] .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus{
         color: #FFFFFF;
@@ -855,9 +855,6 @@ img {
     width: 250px;
     display: inline-block;
   }
-  #mc-embedded-subscribe {
-    margin-left: 20px !important;
-  }
   .footer{
       position: fixed;
       bottom: 20px;
@@ -867,6 +864,7 @@ img {
   .main .subscribe .form-group{
       width: 300px;
       display: inline-block;
+      text-align: center;
   }
   #mc-embedded-subscribe {
     margin-left: 40px;
