@@ -363,6 +363,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     font-size: 16px;
+    width: 200px;
 }
 .navbar-header .navbar-title {
   color: white;
@@ -371,8 +372,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   padding-right: 0px;
 }
 .navbar-default {
-    background-color: #D9D9D9;
-    
+  background-color: #D9D9D9;
 }
 .navbar .navbar-brand {
     font-weight: 600;
@@ -406,10 +406,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: rgba(255, 255, 255, 0.96);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.navbar-transparent{
-    padding-top: 15px;
-    background-color: rgba(0,0,0,.0);
+.navbar-transparent {
+  width: 200px;
+  float: right;
 }
+.navbar-/*collapse.in {
+  background-color: black;
+}*/
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand{
     color: #FFFFFF;
     opacity: 0.95;
@@ -545,7 +548,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     margin: 8px 15px;
     overflow: hidden;
 }
-
 .navbar-toggle{
     margin-top: 19px;
     margin-bottom: 19px;
@@ -560,7 +562,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: rgba(0,0,0,0);
 }
-
+.navbar-fixed-top {
+  left: inherit;
+}
 
 @media (min-width: 768px){
     .navbar-form {
@@ -647,7 +651,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 @media (max-width: 768px){ 
     .navbar-transparent{
         padding-top: 0px;
-        background-color: rgba(0, 0, 0, 0.9);
     }
     .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-transparent .dropdown-menu > li > a:hover, .navbar-transparent .dropdown-menu > li > a:focus, [class*="navbar-ct"] .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus{
         color: #FFFFFF;
@@ -703,7 +706,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 .cover.black{
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(0,0,0,.9);
 }
 .cover.blue{
     background-color: rgba(5, 31, 60, 0.65);
