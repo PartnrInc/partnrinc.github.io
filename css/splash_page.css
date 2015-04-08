@@ -106,8 +106,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 i.partnr {
-  height: 26px;
-  width: 26px;
+  height: 25px;
+  width: 25px;
+  vertical-align: bottom;
   content: url("../images/PartnrIcon.png");
 }
 .navbar-home {
@@ -393,7 +394,11 @@ i.partnr-text {
 }
 .navbar-nav {
     float: right;
-    margin-right: 25px;
+    background-color: rgba(0,0,0,.9);
+    width: 200px;
+}
+.nav > li {
+  text-align: center;
 }
 .navbar-nav > li > a {
     margin-top: 13px;
@@ -404,6 +409,7 @@ i.partnr-text {
 }
 .navbar-nav > li > a [class^="fa"]{
     font-size: 22px;
+    vertical-align: text-top;
 }
 .navbar-brand{
     padding: 20px 15px;
